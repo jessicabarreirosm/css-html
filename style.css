@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>primeira aula de CSS</title>
+</head>
+
+<style>
+ .corpo{
+    margin: 0;
+
+
+ }
+ span {
+    color: red;
+ }
+
+.card {
+    width: 500px;
+    height: fit-content;
+    background-color: aliceblue;
+    border-radius:25px ;
+    border: solid 5px #022419;
+}
+ 
+.boximag{
+    width: 100px;
+    height: 100px;
+    background-color: #022419;
+    border: 1px solid #022419;
+    border-radius: 50px;
+}
+.estiloh1 {
+    font-family: monospace, sans-serif;
+    font-size: 30px;
+}
+.estilorosa {
+    color: magenta;
+}
+</style>
+
+<body class="corpo">
+    <div class="card"></div>
+        <div class="boximag"></div>
+        <h1 id="estiloh1" >
+            Meu nome é: <span>Jéssica</span>
+        </h1>
+        <p>
+            Mensagem: <i  class=" estilorosa"> a vida não é um morango é um moranguete!
+        </p>
+
+    </div>
+
+   
+
+</body>
+
+</html>
